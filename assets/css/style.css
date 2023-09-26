@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+}
+#main{
+    display: flex;
+}
+.sisi-kiri{
+    background-color: orange;
+    width: 250px;
+    height: 100vh;
+}
+.kepala{
+    height: 100px;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    background-color: blue;
+
+}
+.sisikanan{
+   width: calc(100% - 250px);
+    height: 100vh;
+}
+.title{
+    height: 100px;
+    width: 250px;
+    border-bottom: solid 1px white;
+}
+#atas{
+padding-top: 40px;
+padding-left: 25px;
+
+}
+#tim{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 26px;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu1 img{
+    width: 25px;
+}
+
+ .menu1 {
+    margin-top: 20px;
+    display: flex;
+    width: 200px;
+    height: 50px;
+
+} 
+
+.menu1 :hover{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    transition: 1s;
+    cursor: pointer;
+    width: 250px;
+}
+
+.kepala span{
+    padding-top: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.isi-konten{
+    border: 1px solid black;
+    height: 600px;
+    width: 1000px;
+    margin-top: -30px;
+    margin-left: 100px;
+    display: flex;
+    background-color: white;
+}
+.konten-gambar{
+    border: 1px solid black;
+    height: 550px;
+    width:400px ;
+    background-color: white;
+    margin-top: -30px;
+    margin-left: 100px;
+}
+.gabungan{
+    margin-left: 1200px;
+}
+.gabungan img{
+    padding: 0,10;
+    height: 25px;
+    width: 25px;
+}
+.gabungan input{
+    border-radius:20px ;
+    height: 15px;
+}
+.gabungan-konten{
+    display: flex;
+}
+.isi-konten h1{
+    margin-left: 10px;
+    font-size: 28px;
+    display: flex;
+
+}
+.t1{
+margin-top: 60px;
+margin-left: -90px;
+}
+.t1 input{
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+}
+.t2{
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+.t2 input{
+    width: 180px;
+    height: 25px;
+    border-radius: 20px;
+}
+.t3{
+    margin-top: 60px;
+    margin-left: 230px;
+     
+}
+.t3 input{
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+}
+h2{
+    color: grey;
+    font-size: 18px;
+}
+.t4{
+    margin-top: 140px;
+    margin-right: 00px;
+
+}
+.walp{
+    border-bottom: 1px solid black ;
+    width: 400px;
+    height: 100px;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 360px;
+    margin: auto;
+    margin-top: -50px;
+    background-image: url(../gambar/eyTrKsvh3PJ0gEDx.jpg);
+    background-size: 100px;
+}
